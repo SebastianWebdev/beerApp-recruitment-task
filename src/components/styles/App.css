@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: 'Raleway', sans-serif;
+}
+
+select.select {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+  font-family: 'Raleway', sans-serif;
+}
+
+select.select.dark {
+  color: white;
+
+}
+
+select.select.dark option {
+  background-color: rgb(55, 57, 63);
+}
+
+
+.app_content,
+.app_wrapper {
+  display: flex;
+}
+
+.app_wrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 5vh 10vw;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app_content {
+  justify-content: space-between;
+  background-color: rgba(202, 213, 255, 0.158);
+  padding: 0px 30px;
+  width: 100%;
+
+}
+
+.app_content.dark {
+  background-color: rgb(47, 49, 54);
+}
+
+.app_wrapper.dark {
+  background-color: rgb(47, 49, 54);
+  color: white;
+}

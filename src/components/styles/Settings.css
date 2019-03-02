@@ -1,0 +1,97 @@
+/* main styles*/
+.app_settings {
+
+    padding: 0 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(93, 98, 116, 0.342);
+    height: 90px;
+}
+
+
+.sub-tittle {
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.settings_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 15%;
+    height: 100%;
+
+}
+
+/*sorting*/
+.settings_sorting-inputs {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+div.option {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div.option label {
+    font-size: 11px;
+    padding: 0 10px 5px;
+    margin: 0 0px 0 0;
+    cursor: pointer;
+
+}
+
+div.option label.activeLabel {
+    border-bottom: 2px solid rgb(47, 49, 54);
+    /*background-color: rgb(47, 49, 54);*/
+}
+
+div.option label:hover {
+    transform: translateY(8%);
+}
+
+div.option input {
+    display: none;
+}
+
+/*theme options styles*/
+.theme-button-wrap {
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 20px;
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+.them-switch {
+    width: 30px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: 80ms linear;
+}
+
+.active {
+    transform: translateX(100%)
+}
+
+/* number of beers*/
+.numberOfBeersOnPage select {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid gray;
+}
